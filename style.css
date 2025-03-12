@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+nav{
+    color: white;
+
+    
+} 
+nav ul li a:hover{
+    color:#4dd822;
+    cursor: pointer;
+    border-bottom:2px solid white;
+    scale: 1.5em;
+    transition:0.5s;
+
+}
+.about_me{
+    color: white;
+    cursor: pointer;
+}
+
+span{
+    color: #4dd822;
+}
+.creat{
+    color: #4dd822
+}
+.right_section img{
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+
+}
+button:hover{
+    background: #4dd822;
+    border-radius: 30px;
+    transition:0.5s;
+} 
+/*education section*/
+.edu_section{
+    color: black;
+    cursor: pointer;
+
+}
+.edu_section h1{
+    color: #4dd822;
+}
+.e_box{
+    border-left: #4dd822 2px solid;
+}
+.e_box:hover{
+    scale:1.2;
+    transition:0.5s;
+
+
+}
+
+/*skill section*/
+.skill-box{
+    color:#4dd822;
+    background:white;
+    cursor: pointer;
+    gap:20px;
+    border-left: #4dd822 3px solid;
+}
+.skill-box:hover{
+    scale:1.3;
+    transition:0.5s;
+}
+.skill_section h1{
+    color: #4dd822;
+}
+/*contact*/
+.contact_form{
+    cursor: pointer;
+}
+.container_c{
+    color: rgb(12, 12, 12);
+    cursor: pointer;
+}
+.container_c h1{
+    color: #4dd822;
+}
+/*footer*/
+.footer{
+    border: #4dd822 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.icon{
+    background: white;
+    color: black;
+}
+.icon:hover{
+    background-color: #4dd822;
+    transition:0.5s;
+}
+.footer p{
+    color: white;
+}

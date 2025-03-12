@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive About Me</title>
+    <link rel="stylesheet" href="indexprt.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script>src="index.js"</script>
+    <script> type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+
+</head>
+<body class="bg-black">
+
+    <!--Navbar -->
+    <nav class="w-full bg-black text-white p-4">
+        <ul class="flex justify-center md:justify-start space-x-6 ml-2">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Contact</a></li>
+            
+        </ul>
+    </nav>
+
+    <!-- About Me Section -->
+    <div class="about_me w-full flex flex-col md:flex-row items-center mt-10 px-8 md:px-12">
+        
+        <!--text Section -->
+        <div class="text_section md:w-1/2 text-center md:text-left">
+            <h2 class="text-3xl font-bold">Hey.. I'm<span> Muhammed Jamshil</span></h2>
+            <p class="mt-4 text-white-700">
+                I'm passionate and detail-oriented software developer with a love
+                for solving complex problems through clean, efficient code.
+                I'm always eager to learn and adapt to new technologies.
+            </p>
+            <p class="mt-2 ">
+                I thrive in collaborative environments where I can contribute to building 
+                innovative solutions that make a real impact.
+            </p>
+            <p class="creat">
+                Let's connect and create something amazing together.
+            </p>
+            <button class="mt-6 px-6 py-2  text-white font-semibold">
+                Message Me
+            </button>
+        </div>
+
+        <!--right section-->
+        <div class="right_section md:w-1/2 flex justify-center mt-6 md:mt-0">
+            <img src="myimage.jpg.jpeg" alt="Muhammed Jamshil">
+        </div>
+
+    </div>
+        <!--education section -->
+    <div class="edu_section py-15 md:py-20">
+        <h1 class="text-3xl md:text-4xl font-bold flex justify-center mb-10">EDUCATION</h1>
+        <div class="container w-full  mx-auto flex flex-col md:flex-row justify-around">
+        <div class="e_box bg-white shadow-md rounded-lg p-8 mb-4 md:mb-0">
+            <h1 class="text-lg font-bold mb-2">DEGREE</h1>
+            <p>B.com finance from bharathiar university at coimbator</p>
+        </div>
+        <div class="e_box bg-white shadow-md rounded-lg p-8 mb-4 md:mb-0">
+            <h1 class="text-lg font-bold mb-2">ACCOUNTING</h1>
+            <p>Accounting instutute at perinthalmanna </p>
+        </div>
+        <div class="e_box bg-white shadow-md rounded-lg p-8 mb-4 md:mb-0">
+            <h1 class="text-lg font-bold mb-2">BRIDGEON</h1>
+            <p>software developer,web development </p>
+        </div>
+         </div>
+        </div>
+    <!--skill section-->
+     <div class="container_s py-10 md:py-20">
+        <div class="skill_section mx-auto">
+            <h1 class="text-3xl md:text-4xl font-bold flex justify-center mb-10">MY SKILLS</h1>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 justify-items-center">
+                <div class="skill-box shadow-md rounded-lg p-6 flex flex-col items-center">
+                    <img class="skill-logo w-16 md:w-24 mb-4" src="html logo.png" alt="html">
+                </div>
+                <div class="skill-box shadow-md rounded-lg p-6 flex flex-col items-center">
+                    <img class="skill-logo w-16 md:w-24 mb-4" src="csslogo.jpeg" alt="css">
+                </div>
+                <div class="skill-box shadow-md rounded-lg p-6 flex flex-col items-center">
+                    <img class="skill-logo w-16 md:w-24 mb-4" src="javascript logo.png" alt="javascript">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--contacts-->
+    <div class=" contact_form py-10 md:py-20">
+        <div class="container_c mx-auto">
+            <h1 class="text-3xl md:text-4xl font-bold flex justify-center mb-10"> CONTACT ME</h1>
+            <div class="flex justify-center">
+                <form class="container_c w-full md:w-1/2 flex flex-col items-center bg-white shadow-md rounded-lg p-6">
+                    <input type="hidden" name="access_key" value="85f25d72-3ab2-4a5f-8d73-e6dbddd4a401">
+                    <input class="form-input w-full mb-4 p-2 border rounded" type="text" id="name" name="name" placeholder="Enter Your Name..." required>
+                    <input class="form-input w-full mb-4 p-2 border rounded" type= placeholder="Enter Your Email..."id="email" name="email" required>
+                    <textarea class="form-input w-full mb-4 p-2 border rounded" rows="6" name="Message"id="Message" placeholder="Message...."></textarea>
+                    <button type="submit" class="btn w-1/3  p-2 rounded">Done</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="footer py-10 md:py-20 ">
+        <div class="icons flex justify-center gap-10">
+            <a href="https://www.linkedin.com/in/muhammed-jamshil-861a412b8/" target="_blank"><box-icon class="icon" type='logo' name='linkedin'></box-icon></a>
+            <a href="https://www.instagram.com/j4mshil_r/?next=%2F" target="_blank"><box-icon class="icon" type='logo' name='instagram'></box-icon></a>
+            <a href="https://github.com/jamshi-55" target="_blank"><box-icon class="icon" type='logo' name='github'></box-icon></a>
+        </div>
+        <div class="copy">
+            <p>Copyright:2025 Designed by &nbsp<span>jamshil</span></p>
+            <p>Contact:- +91 9961815097</p>
+            <p>muhammed.jamshil@iclou.com</p>
+        </div>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!-- Ensure EmailJS is loaded before using it -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        setTimeout(() => {
+          if (window.emailjs) {
+            emailjs.init("_2fdjl6apy_R9UfkA"); // Replace with your EmailJS User ID
+            console.log("EmailJS initialized successfully.");
+          } else {
+            console.error("EmailJS failed to load!");
+          }
+        }, 500); // Wait 500ms to ensure the script is fully loaded
+      });
+</script>
+<script src="index.js"></script>
+</body>
+</html>
